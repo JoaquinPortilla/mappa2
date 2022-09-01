@@ -7,12 +7,12 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-      <link rel="stylesheet" href="../estilos/style.css">
+      <link rel="stylesheet" href="../css/style.css">
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;600&amp;display=swap" rel="stylesheet">
       <link rel="stylesheet" href="./styles/style.css" />
       <meta name="description" content="Ciclo MAPPA - Poesía mensual con micrófono abierto. ¡Renovemos la cultura!">
       <meta name="keywords" content="ciclo, poesía, micrófono abierto, slam, cultura, performance, mappa">
-      <title>MAPPA - Nosotrxs</title>
+      <title>MAPPA - Encuentros</title>
    </head>
    <body>
       <header> <!-- nav bar -->
@@ -44,28 +44,56 @@
       </header>
       <main class="mainClass">
          <h1>
-            Nosotros
+            Encuentros
          </h1>
          <p class="centeredParagraph">
-            Ciclo Mappa es un espacio que se creó en 2016 dedicado a la exposición y difusión de escritos, donde la comunidad se permite un intercambio en el cual destaca la sinceridad y el apoyo a los nuevos participantes.
+            El evento se realiza mensualmente en distintos espacios entre los que destacan Código Montesco, Savia Cultural, Páramo Cultural y Espacio Río. Su estructura se compone por dos bloques en los cuales cualquier persona presente se puede anotar para leer durante 3 minutos. Cada bloque está iniciado por un artista invitado, el primero por un músico y el segundo por un poeta a los que se les suele dedicar 15 minutos.
          </p>
-         <section class="NosotrosGrid">
-            <div> <!-- video -->
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/T9b_TE6Ab9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <section class="Galery">
+            <div class="carousels"> <!-- carrousel -->
+               <div class="first portfolio--carousels--style" data-aos="zoom-in">
+                  <div id="firstCarouselIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                     <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#firstCarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#firstCarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#firstCarouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#firstCarouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                     </div>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <img src="../img/encuentro1.png" class="d-block w-100" alt="Poeta compenetrada en la lectura de su texto">
+                        </div>
+                        <div class="carousel-item">
+                           <img src="../img/encuentro2.png" class="d-block w-100" alt="Poeta recita mirando a la cámara">
+                        </div>
+                        <div class="carousel-item">
+                           <img src="../img/encuentro3.png" class="d-block w-100" alt="Poeta compenetrada en la lectura de su texto">
+                        </div>
+                        <div class="carousel-item">
+                           <img src="../img/encuentro4.png" class="d-block w-100" alt="Poeta se sensibiliza en la lectura de su poema">
+                        </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button" data-bs-target="#firstCarouselIndicators" data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Anterior</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#firstCarouselIndicators" data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Siguiente</span>
+                     </button>                        
+                  </div>
+               </div>
             </div>
-            <figure> <!-- foto con animación -->
-               <img data-aos="zoom-in" src="../img/mappacomunidad.png" alt="la comunidad de MAPPA en una foto grupal">
-            </figure>
          </section>
       </main>
-      <footer class="footer"> <!-- footer -->
+      <footer class="footer">  <!-- footer -->
          <a href="https://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
          <a href="https://www.instagram.com/ciclomappa/" target="_blank"><i class="bi bi-instagram"></i></a>
          <a href="https://www.facebook.com/poesia.performatica" target="_blank"><i class="bi bi-facebook"></i></a>
       </footer>
-    </body>
+   </body>
 
-    <!-- librerías -->
+   <!-- librerías -->
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
