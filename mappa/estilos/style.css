@@ -1,0 +1,674 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway";
+}
+
+.brown {
+    background-color: brown;
+}
+
+a {
+    color: antiquewhite;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: small;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+.mainClass{
+    background-color: cornsilk;
+}
+
+h1{  /* títulos */
+    font-size: larger;
+    padding: 20px;
+    color: black;
+}
+
+h2 {  /* subtitulos */
+    font-size: medium;
+    margin-left: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+p {
+    font-size: small;
+
+}
+
+.indexParagraph {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.Galery {  /* estilos galerías */
+    display: grid; 
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+.centeredParagraph {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+img {
+
+    border: 3px solid black;
+}
+
+.NosotrosGrid {  /* estilos grilla sección nosotros */
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto;
+justify-content: center;
+}
+
+.carousels {  /* estilos carrousels */
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+.iframeFlex {  /* estilos grilla video */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+iframe {  /* estilos video */
+    margin: 20px;
+    border: 3px solid black;
+}
+
+.contactUs {  /* estilos título sección contacto */
+    display: flex;
+    justify-content: center;
+}
+.form{  /* estilos formulario */
+    display: grid; 
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 0 auto 20px;
+}
+
+.form-contact .btn-submit {  /* estilos boton formulario */
+    border: 1px solid black;
+}
+
+.formSection {
+    padding: 10px;
+}
+
+
+/* estilos footer */
+.footer {  
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    background-color: brown;
+  }
+  footer i {
+    font-size: 30px;
+    color: cornsilk;
+    margin: 20px;
+  }
+  footer i:hover {
+    color: black;
+  }
+
+
+/* media queries */
+@media (min-width: 768px) and (max-width: 1199px)
+{
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        color: antiquewhite;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: small;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .headerFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content: end
+    }
+
+    ul li {
+        list-style-type:none;
+        display: inline-block;
+    }
+
+    .mainClass{
+        background-color: cornsilk;
+    }
+
+    h1{
+        font-size: larger;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: medium;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: small;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h3class {
+        margin-top: 30px;
+    }
+
+    .Galery {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+
+
+    p {
+        font-size: small;
+    }
+
+    .indexParagraph {
+        margin-top: 10px;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .centeredParagraph {
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    img {
+        margin: 20px;
+        border: 3px solid black;
+    }
+
+    .figureNosotros {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    }
+
+
+    .iframeFlex {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+
+    iframe {
+        margin: 20px;
+        border: 3px solid black;
+    }
+
+    form {
+        padding: 80px;
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+
+    footer{
+        background-color: brown;
+        font-style: italic;
+        color: azure;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 767px)
+{
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        color: antiquewhite;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: smaller;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .headerFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    }
+
+    ul li {
+        list-style-type:none;
+        display: inline-block;
+    }
+
+    .mainClass{
+        background-color: cornsilk;
+    }
+
+    h1{
+        font-size: larger;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: medium;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: small;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h3class {
+        margin-top: 30px;
+    }
+
+    .Galery {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+
+
+    p {
+        font-size: small;
+    }
+
+    .indexParagraph {
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .centeredParagraph {
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    img {
+        border: 3px solid black;
+        max-width:100%;
+        height:auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .figureNosotros {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    }
+
+
+    .iframeFlex {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+
+    iframe {
+        border: 3px solid black;
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    form {
+        padding: 80px;
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+
+    footer{
+        background-color: brown;
+        font-style: italic;
+        color: azure;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        background-color: brown;
+        margin: 0;
+        border: 1px solid black;
+    }
+
+    nav {
+        margin: 3px;
+        padding: 5px;
+    }
+
+    a {
+        color: antiquewhite;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: xx-small ;
+        padding: 2px;
+        text-decoration: none;
+    }
+
+    .headerFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    ul li {
+        list-style-type:none;
+        display: inline-block;
+    }
+
+    .mainClass{
+        background-color: cornsilk;
+    }
+
+    h1{
+        font-size: larger;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: medium;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: small;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h3class {
+        margin-top: 30px;
+    }
+
+    .Galery {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+
+
+    p {
+        font-size: small;
+    }
+
+    .indexParagraph {
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .centeredParagraph {
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    img {
+        border: 3px solid black;
+        max-width:100%;
+        height:auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .figureNosotros {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    }
+
+
+    .iframeFlex {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+
+    iframe {
+        margin: 20px;
+        border: 3px solid black;
+        max-width:100%;
+        height:auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+
+    form {
+        padding: 80px;
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+
+    footer{
+        background-color: brown;
+        font-style: italic;
+        color: azure;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 320px)
+{
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        background-color: brown;
+        margin: 0;
+        border: 1px solid black;
+    }
+
+    nav {
+        margin: 3px;
+        padding: 5px;
+    }
+
+    a {
+        color: antiquewhite;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: medium;
+        padding: 2px;
+        text-decoration: none;
+    }
+
+    .headerFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    ul li {
+        list-style-type:none;
+        display: grid;
+    }
+
+    .mainClass{
+        background-color: cornsilk;
+        max-width: 100%;
+    }
+
+    h1{
+        font-size: larger;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: medium;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: small;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h3class {
+        margin-top: 30px;
+    }
+
+    .Galery {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+     
+        height:auto;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    img {
+    max-width: 100px;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .indexParagraph {
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .centeredParagraph {
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+
+
+
+    .iframeFlex {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+
+    iframe {
+        margin: 20px;
+        border: 3px solid black;
+        max-width:auto;
+        height:auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+
+    form {
+        padding: 80px;
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+
+    footer{
+        background-color: brown;
+        font-style: italic;
+        color: azure;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
