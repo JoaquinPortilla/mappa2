@@ -1,13 +1,6 @@
-$color1: brown;
-$color2: cornsilk;
-$color3: antiquewhite;
-$font1: 'Raleway';
+@import "variables";
+@import "reset";
 
-* {
-	padding: 0;
-	margin: 0;
-	font-family: $font1;
-}
 .brown {
 	background-color: $color1;
 }
