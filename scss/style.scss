@@ -1,25 +1,26 @@
-@import "variables";
-@import "reset";
+@import "./variables";
+@import "./mixins";
+@import "./extend";
+
+*{
+	@include reset;
+	font-family: $font1;
+}
 
 .brown {
-	background-color: $color1;
+	background-color: map-get($colores , "1" );
 }
 a {
-	color: $color2;
-	font-weight: bold;
-	text-transform: uppercase;
-	font-size: small;
-	padding: 15px;
-	text-decoration: none;
+	@extend .extendA;
 }
 .mainClass {
-	background-color: $color2;
+	@extend .extendMainClass;
 }
+
 h1 {
-	font-size: larger;
-	padding: 20px;
-	color: black;
+	@extend .extendH1;
 }
+
 h2 {
 	font-size: medium;
 	margin-left: 30px;
@@ -101,12 +102,12 @@ iframe {
 	display: flex;
 	justify-content: center;
 	padding: 1px;
-	background-color: $color1;
+	background-color: map-get($colores , "1" );
 }
 footer {
 	i {
 		font-size: 30px;
-		color: $color2;
+		color: map-get($colores , "2" );
 		margin: 20px;
 		&:hover {
 			color: black;
@@ -119,7 +120,7 @@ footer {
 		margin: 0;
 	}
 	a {
-		color: $color3;
+		color: map-get($colores , "3" );
 		font-weight: bold;
 		text-transform: uppercase;
 		font-size: small;
@@ -138,7 +139,7 @@ footer {
 		}
 	}
 	.mainClass {
-		background-color: $color2;
+		background-color: map-get($colores , "2" );
 	}
 	h1 {
 		font-size: larger;
@@ -208,7 +209,7 @@ footer {
 		padding-top: 40px;
 	}
 	footer {
-		background-color: $color1;
+		background-color: map-get($colores , "1" );
 		font-style: italic;
 		color: azure;
 		display: flex;
@@ -222,7 +223,7 @@ footer {
 		margin: 0;
 	}
 	a {
-		color: $color3;
+		color: map-get($colores , "3" );
 		font-weight: bold;
 		text-transform: uppercase;
 		font-size: smaller;
@@ -241,7 +242,7 @@ footer {
 		}
 	}
 	.mainClass {
-		background-color: $color2;
+		background-color: map-get($colores , "2" );
 	}
 	h1 {
 		font-size: larger;
@@ -316,7 +317,7 @@ footer {
 		padding-top: 40px;
 	}
 	footer {
-		background-color: $color1;
+		background-color: map-get($colores , "1" );
 		font-style: italic;
 		color: azure;
 		display: flex;
@@ -330,7 +331,7 @@ footer {
 		margin: 0;
 	}
 	header {
-		background-color: $color1;
+		background-color: map-get($colores , "1" );
 		margin: 0;
 		border: 1px solid black;
 	}
@@ -339,7 +340,7 @@ footer {
 		padding: 5px;
 	}
 	a {
-		color: $color3;
+		color: map-get($colores , "3" );
 		font-weight: bold;
 		text-transform: uppercase;
 		font-size: xx-small;
@@ -358,7 +359,7 @@ footer {
 		}
 	}
 	.mainClass {
-		background-color: $color2;
+		background-color: map-get($colores , "2" );
 	}
 	h1 {
 		font-size: larger;
@@ -435,7 +436,7 @@ footer {
 		padding-top: 40px;
 	}
 	footer {
-		background-color: $color1;
+		background-color: map-get($colores , "1" );
 		font-style: italic;
 		color: azure;
 		display: flex;
@@ -449,7 +450,7 @@ footer {
 		margin: 0;
 	}
 	header {
-		background-color: $color1;
+		background-color: map-get($colores , "1" );
 		margin: 0;
 		border: 1px solid black;
 	}
@@ -458,7 +459,7 @@ footer {
 		padding: 5px;
 	}
 	a {
-		color: $color3;
+		color: map-get($colores , "3" );
 		font-weight: bold;
 		text-transform: uppercase;
 		font-size: medium;
@@ -477,7 +478,7 @@ footer {
 		}
 	}
 	.mainClass {
-		background-color: $color2;
+		background-color: map-get($colores , "2" );
 		max-width: 100%;
 	}
 	h1 {
@@ -548,7 +549,7 @@ footer {
 		padding-top: 40px;
 	}
 	footer {
-		background-color: $color1;
+		background-color: map-get($colores , "1" );
 		font-style: italic;
 		color: azure;
 		display: flex;

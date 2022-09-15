@@ -1,12 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway"; }
+.extendMainClass, .mainClass {
+  background-color: cornsilk; }
 
-.brown {
-  background-color: brown; }
-
-a {
+.extendA, a {
   color: cornsilk;
   font-weight: bold;
   text-transform: uppercase;
@@ -14,13 +9,18 @@ a {
   padding: 15px;
   text-decoration: none; }
 
-.mainClass {
-  background-color: cornsilk; }
-
-h1 {
+.extendH1, h1 {
   font-size: larger;
   padding: 20px;
   color: black; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway"; }
+
+.brown {
+  background-color: brown; }
 
 h2 {
   font-size: medium;

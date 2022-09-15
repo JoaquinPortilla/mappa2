@@ -1,0 +1,18 @@
+.extendMainClass{
+    background-color: map-get($colores , "2" );
+}
+
+.extendA{
+    color: map-get($colores , "2" );
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: small;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.extendH1{
+    font-size: larger;
+	padding: 20px;
+	color: black;	
+}
