@@ -1,0 +1,4 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+●	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Ciclo MAPPA - Encuentro mensual de poesía con micrófono abierto. ¡Renovemos la cultura!"
+●	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "ciclo, poesía, micrófono abierto, slam, cultura, performance, mappa"
+●	Encabezado: para el encabezado del h1 del index utilicé el texto “CICLO MAPPA”
