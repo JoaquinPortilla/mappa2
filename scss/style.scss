@@ -54,15 +54,22 @@ p {
 }
 img {
 	border: 3px solid black;
+	max-width: 100%;
 }
-.NosotrosGrid {
+.nosotrosGrid {
 	display: grid;
 	grid-template-columns: auto;
 	grid-template-rows: auto;
 	justify-content: center;
 }
+.figureNosotros{
+	max-width: 90%;
+	height: auto;
+	margin-left: 5%;
+}
 .carousels {
-	width: 700px;
+	width: 90%;
+	margin: 5%;
 	margin-bottom: 20px;
 }
 .iframeFlex {
@@ -184,14 +191,24 @@ footer {
 		margin-right: 30px;
 	}
 	img {
-		margin: 20px;
 		border: 3px solid black;
+		max-width: 100%;
 	}
-	.figureNosotros {
+	.nosotrosGrid {
 		display: grid;
 		grid-template-columns: auto;
 		grid-template-rows: auto;
 		justify-content: center;
+	}
+	.figureNosotros{
+		max-width: 90%;
+		height: auto;
+		margin-left: 5%;
+	}
+	.carousels {
+		width: 90%;
+		margin: 5%;
+		margin-bottom: 20px;
 	}
 	.iframeFlex {
 		display: grid;
@@ -200,8 +217,10 @@ footer {
 		justify-content: center;
 	}
 	iframe {
-		margin: 20px;
 		border: 3px solid black;
+		max-width: 90%;
+		height: 45vh;
+		margin-left: 5%;
 	}
 	form {
 		padding: 80px;
@@ -288,16 +307,22 @@ footer {
 	}
 	img {
 		border: 3px solid black;
-		max-width: 100%;
-		height: auto;
-		margin-left: 0px;
-		margin-right: 0px;
 	}
-	.figureNosotros {
+	.nosotrosGrid {
 		display: grid;
 		grid-template-columns: auto;
 		grid-template-rows: auto;
 		justify-content: center;
+	}
+	.figureNosotros{
+		max-width: 90%;
+		height: auto;
+		margin-left: 5%;
+	}
+	.carousels {
+		width: 90%;
+		margin: 5%;
+		margin-bottom: 20px;
 	}
 	.iframeFlex {
 		display: grid;
@@ -307,9 +332,9 @@ footer {
 	}
 	iframe {
 		border: 3px solid black;
-		max-width: 100%;
-		margin-left: 0px;
-		margin-right: 0px;
+		max-width: 90%;
+		height: 45vh;
+		margin-left: 5%;
 	}
 	form {
 		padding: 80px;
@@ -325,7 +350,7 @@ footer {
 		justify-content: center;
 	}
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 480px) {
 	* {
 		padding: 0;
 		margin: 0;
@@ -410,12 +435,12 @@ footer {
 		margin-left: 0px;
 		margin-right: 0px;
 	}
-	.figureNosotros {
-		display: grid;
-		grid-template-columns: auto;
-		grid-template-rows: auto;
-		justify-content: center;
+	.carousels {
+		width: 90%;
+		margin: 5%;
+		margin-bottom: 20px;
 	}
+	
 	.iframeFlex {
 		display: grid;
 		grid-template-columns: auto;
@@ -423,125 +448,10 @@ footer {
 		justify-content: center;
 	}
 	iframe {
-		margin: 20px;
 		border: 3px solid black;
-		max-width: 100%;
-		height: auto;
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-	form {
-		padding: 80px;
-		padding-left: 10px;
-		padding-top: 40px;
-	}
-	footer {
-		background-color: map-get($colores , "1" );
-		font-style: italic;
-		color: azure;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-	}
-}
-@media (min-width: 0px) and (max-width: 320px) {
-	* {
-		padding: 0;
-		margin: 0;
-	}
-	header {
-		background-color: map-get($colores , "1" );
-		margin: 0;
-		border: 1px solid black;
-	}
-	nav {
-		margin: 3px;
-		padding: 5px;
-	}
-	a {
-		color: map-get($colores , "3" );
-		font-weight: bold;
-		text-transform: uppercase;
-		font-size: medium;
-		padding: 2px;
-		text-decoration: none;
-	}
-	.headerFlex {
-		display: flex;
-		flex-direction: row;
-		justify-content: start;
-	}
-	ul {
-		li {
-			list-style-type: none;
-			display: grid;
-		}
-	}
-	.mainClass {
-		background-color: map-get($colores , "2" );
-		max-width: 100%;
-	}
-	h1 {
-		font-size: larger;
-		padding: 20px;
-		display: flex;
-		justify-content: center;
-	}
-	h2 {
-		font-size: medium;
-		margin-left: 30px;
-		display: flex;
-		justify-content: center;
-	}
-	h3 {
-		font-size: small;
-		margin-left: 30px;
-		display: flex;
-		justify-content: center;
-	}
-	.h3class {
-		margin-top: 30px;
-	}
-	.Galery {
-		display: grid;
-		grid-template-columns: auto;
-		grid-template-rows: auto;
-		justify-content: center;
-		height: auto;
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-	img {
-		max-width: 100px;
-	}
-	p {
-		font-size: small;
-	}
-	.indexParagraph {
-		margin-left: 40px;
-		margin-right: 40px;
-		display: flex;
-		justify-content: center;
-	}
-	.centeredParagraph {
-		display: flex;
-		justify-content: center;
-		margin-left: 40px;
-		margin-right: 40px;
-	}
-	.iframeFlex {
-		display: grid;
-		grid-template-columns: auto;
-		grid-template-rows: auto;
-		justify-content: center;
-	}
-	iframe {
-		margin: 20px;
-		border: 3px solid black;
-		max-width: auto;
-		height: auto;
-		margin-left: 0px;
-		margin-right: 0px;
+		max-width: 90%;
+		height: 35vh;
+		margin-left: 5%;
 	}
 	form {
 		padding: 80px;
